@@ -21,6 +21,16 @@
 		041F13961844A8A800B9601E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041F13781844A8A800B9601E /* UIKit.framework */; };
 		041F139E1844A8A800B9601E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 041F139C1844A8A800B9601E /* InfoPlist.strings */; };
 		041F13A01844A8A800B9601E /* PadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041F139F1844A8A800B9601E /* PadDemoTests.m */; };
+		041F13AC1844AA3A00B9601E /* homeDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 041F13AB1844AA3A00B9601E /* homeDemo.png */; };
+		041F13AF1844C13900B9601E /* darkbulb.png in Resources */ = {isa = PBXBuildFile; fileRef = 041F13AD1844C13900B9601E /* darkbulb.png */; };
+		041F13B01844C13A00B9601E /* lightbulb.png in Resources */ = {isa = PBXBuildFile; fileRef = 041F13AE1844C13900B9601E /* lightbulb.png */; };
+		041F13B21844E4B300B9601E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041F13B11844E4B300B9601E /* AVFoundation.framework */; };
+		041F13B61844E86C00B9601E /* CLICK.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 041F13B51844E86C00B9601E /* CLICK.WAV */; };
+		041F13B81844EAEE00B9601E /* dry_click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 041F13B71844EAEE00B9601E /* dry_click.mp3 */; };
+		041F13BB1844EDE600B9601E /* click1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 041F13B91844EDE600B9601E /* click1.mp3 */; };
+		041F13BC1844EDE600B9601E /* 61870^Click02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 041F13BA1844EDE600B9601E /* 61870^Click02.mp3 */; };
+		0428BF981846D7200034198D /* XSocketTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428BF971846D7200034198D /* XSocketTest.m */; };
+		04AC215418458AAB009BC40D /* XTVBkLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC215318458AAB009BC40D /* XTVBkLightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,18 @@
 		041F139B1844A8A800B9601E /* PadDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PadDemoTests-Info.plist"; sourceTree = "<group>"; };
 		041F139D1844A8A800B9601E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		041F139F1844A8A800B9601E /* PadDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PadDemoTests.m; sourceTree = "<group>"; };
+		041F13AB1844AA3A00B9601E /* homeDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeDemo.png; sourceTree = "<group>"; };
+		041F13AD1844C13900B9601E /* darkbulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkbulb.png; sourceTree = "<group>"; };
+		041F13AE1844C13900B9601E /* lightbulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightbulb.png; sourceTree = "<group>"; };
+		041F13B11844E4B300B9601E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		041F13B51844E86C00B9601E /* CLICK.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CLICK.WAV; sourceTree = "<group>"; };
+		041F13B71844EAEE00B9601E /* dry_click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dry_click.mp3; sourceTree = "<group>"; };
+		041F13B91844EDE600B9601E /* click1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click1.mp3; sourceTree = "<group>"; };
+		041F13BA1844EDE600B9601E /* 61870^Click02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "61870^Click02.mp3"; sourceTree = "<group>"; };
+		0428BF961846D7200034198D /* XSocketTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSocketTest.h; sourceTree = "<group>"; };
+		0428BF971846D7200034198D /* XSocketTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSocketTest.m; sourceTree = "<group>"; };
+		04AC215218458AAB009BC40D /* XTVBkLightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTVBkLightViewController.h; sourceTree = "<group>"; };
+		04AC215318458AAB009BC40D /* XTVBkLightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTVBkLightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041F13B21844E4B300B9601E /* AVFoundation.framework in Frameworks */,
 				041F13771844A8A800B9601E /* CoreGraphics.framework in Frameworks */,
 				041F13791844A8A800B9601E /* UIKit.framework in Frameworks */,
 				041F13751844A8A800B9601E /* Foundation.framework in Frameworks */,
@@ -82,6 +105,10 @@
 		041F13681844A8A800B9601E = {
 			isa = PBXGroup;
 			children = (
+				041F13B51844E86C00B9601E /* CLICK.WAV */,
+				041F13B91844EDE600B9601E /* click1.mp3 */,
+				041F13BA1844EDE600B9601E /* 61870^Click02.mp3 */,
+				041F13B71844EAEE00B9601E /* dry_click.mp3 */,
 				041F137A1844A8A800B9601E /* PadDemo */,
 				041F13991844A8A800B9601E /* PadDemoTests */,
 				041F13731844A8A800B9601E /* Frameworks */,
@@ -101,6 +128,7 @@
 		041F13731844A8A800B9601E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				041F13B11844E4B300B9601E /* AVFoundation.framework */,
 				041F13741844A8A800B9601E /* Foundation.framework */,
 				041F13761844A8A800B9601E /* CoreGraphics.framework */,
 				041F13781844A8A800B9601E /* UIKit.framework */,
@@ -112,6 +140,11 @@
 		041F137A1844A8A800B9601E /* PadDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0428BF961846D7200034198D /* XSocketTest.h */,
+				0428BF971846D7200034198D /* XSocketTest.m */,
+				041F13AD1844C13900B9601E /* darkbulb.png */,
+				041F13AE1844C13900B9601E /* lightbulb.png */,
+				041F13AB1844AA3A00B9601E /* homeDemo.png */,
 				041F13831844A8A800B9601E /* XAppDelegate.h */,
 				041F13841844A8A800B9601E /* XAppDelegate.m */,
 				041F13861844A8A800B9601E /* Main.storyboard */,
@@ -119,6 +152,8 @@
 				041F138A1844A8A800B9601E /* XViewController.m */,
 				041F138C1844A8A800B9601E /* Images.xcassets */,
 				041F137B1844A8A800B9601E /* Supporting Files */,
+				04AC215218458AAB009BC40D /* XTVBkLightViewController.h */,
+				04AC215318458AAB009BC40D /* XTVBkLightViewController.m */,
 			);
 			path = PadDemo;
 			sourceTree = "<group>";
@@ -230,8 +265,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				041F138D1844A8A800B9601E /* Images.xcassets in Resources */,
+				041F13B01844C13A00B9601E /* lightbulb.png in Resources */,
+				041F13B81844EAEE00B9601E /* dry_click.mp3 in Resources */,
+				041F13AC1844AA3A00B9601E /* homeDemo.png in Resources */,
+				041F13B61844E86C00B9601E /* CLICK.WAV in Resources */,
+				041F13AF1844C13900B9601E /* darkbulb.png in Resources */,
 				041F137F1844A8A800B9601E /* InfoPlist.strings in Resources */,
 				041F13881844A8A800B9601E /* Main.storyboard in Resources */,
+				041F13BB1844EDE600B9601E /* click1.mp3 in Resources */,
+				041F13BC1844EDE600B9601E /* 61870^Click02.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +295,8 @@
 				041F13811844A8A800B9601E /* main.m in Sources */,
 				041F13851844A8A800B9601E /* XAppDelegate.m in Sources */,
 				041F138B1844A8A800B9601E /* XViewController.m in Sources */,
+				04AC215418458AAB009BC40D /* XTVBkLightViewController.m in Sources */,
+				0428BF981846D7200034198D /* XSocketTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +507,7 @@
 				041F13A51844A8A800B9601E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041F13A61844A8A800B9601E /* Build configuration list for PBXNativeTarget "PadDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +516,7 @@
 				041F13A81844A8A800B9601E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
